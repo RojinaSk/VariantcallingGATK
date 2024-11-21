@@ -1,1 +1,2 @@
-# VariantcallingGATK
+# VariantcallingGATK4
+In this I have followed the GATK best practice workflow, to learn how to call variants(SNPs Indels) from whole genome sequencing data. I have worked through setting up a pipleine in bash(linux) and performed steps to preprocess, align reads and finally output a VCF file. The steps included:• Quality control (fastQC)  • Alignment (BWA-MEM)  • Mark Duplicate reads and BQSR  • Variant calling using HaplotypeCaller
